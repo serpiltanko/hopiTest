@@ -1,0 +1,32 @@
+{
+    "home.text":"Hepsi Senin İçin",
+    "shoppingCards.text1":"Akaryakıt harcaman...",
+    "shoppingCards.text2":"Alışverişlerinde",
+    "shoppingCards.text3":"Akaryakıt harcaman...",
+    "shoppingCards.text4":"Sigorta poliçesinde",
+    "shoppingCards.text5":"%10 İndirim",
+    "shoppingCards.text6":"Harca, Kazan",
+    "shoppingCards.text7":"100 TL İndirim",
+    "shoppingCards.text8":"Akaryakıt harcaman...",
+    "shoppingCards.text9":"alışveriş Kredisi kullanabilrisin",
+    "shoppingCards.text10":"Akaryakıt harcaman...",
+    "shoppingCards.text11":"%5 İndirim",
+    "shoppingCards.text12":"Akaryakıtta indirim",
+    "shoppingCards.description":"%1 Paracık kazan",
+    "shoppingCards.ButtonText":"Daha Fazla Göster",
+    "AllCampaignsHeader.text":"Tüm Kampanyalar",
+    "filter.text1":"314 Kampanya",
+    "filter.text2":"Filtrele",
+    "tabBar.text1":"Kampanyalar",
+    "profileHeader.text":"Profilim",
+    "CartTopSide.text":"Sepetinde ürün bulunmuyor",
+    "CartTopSide.description":"Satın alabileceğin tam senlik ürünler için alışverişe başla.",
+    "CartTopSide.ButtonText":"ALIŞVERİŞE BAŞLA",
+    "CartBottomSide.text":"Tükenmeden ekle",
+    "LogoQR.text":"Hopi QR'ı kasada okutarak veya internet alışverişlerinde altındaki kodu yazarak tektiflerden yararlanabilirsin.",
+    "QRScanPlaceholder": "QR KODU OKU",
+    "QRCodeScreen.text":"QR Kodum",
+    "CartScreen.text":"Sepetim"
+
+
+}

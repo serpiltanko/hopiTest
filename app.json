@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "12-serpiltanko",
-    "slug": "12-serpiltanko",
+    "name": "17-serpiltanko",
+    "slug": "17-serpiltanko",
+    "owner": "sm002",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +26,20 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8cea39ea-f87a-472d-a50b-a038b89cb232"
+    },
+    "plugins": [
+      "expo-localization"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8cea39ea-f87a-472d-a50b-a038b89cb232"
+      }
     }
   }
 }
