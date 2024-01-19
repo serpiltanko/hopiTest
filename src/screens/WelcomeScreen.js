@@ -17,8 +17,7 @@ const WelcomeScreen = () => {
            
             <View style={styles.container}>
                 <View style={styles.textContainer}>
-                    <Text style={styles.header}>  Hoşgeldin</Text>
-                    <Text style={styles.text}> Ne zaman istersen, Hopi'nin renkli ve kazançlı dünyasına dönebilirsin. </Text>
+                    <Text style={styles.header}>  Hoşgeldin</Text>                   
                 </View>
                 <Image
                     source={require('../assets/login/welcomeimage.png')}
@@ -43,7 +42,7 @@ const styles = StyleSheet.create({
 
         width: "100%",
         height: 190,
-        backgroundColor: "rgb(240,204,216)",
+        backgroundColor: "rgb(240,171,193)",
         lineHeight: 24,
     },
 
@@ -53,7 +52,7 @@ const styles = StyleSheet.create({
         color: "rgb(224,40,142)",
         textAlign: "center",
         paddingHorizontal: 20,
-        paddingTop: 90,
+        paddingTop: 120,
     },
 
     text: {
@@ -76,7 +75,7 @@ const styles = StyleSheet.create({
         width:"100%",
         height:150,
         flexDirection: "row",
-        backgroundColor: "rgb(240,204,216)",
+        backgroundColor: "rgb(240,171,193)",
         alignItems: "center",
         justifyContent: "center",
         paddingBottom:50,

@@ -16,11 +16,11 @@ const Brands = () => {
     // @ts-ignore
     { id: 3, image: require("../assets/homescreen/carousel3.png") },
     // @ts-ignore
-    { id: 4, image: require("../assets/homescreen/carousel1.png") },
+    { id: 4, image: require("../assets/homescreen/carousel4.png") },
     // @ts-ignore
-    { id: 3, image: require("../assets/homescreen/carousel3.png") },
+    { id: 1, image: require("../assets/homescreen/carousel1.png") },
     // @ts-ignore
-    { id: 4, image: require("../assets/homescreen/carousel1.png") },
+    { id: 2, image: require("../assets/homescreen/carousel2.png") },
   ];
 
   return (
@@ -38,6 +38,7 @@ const Brands = () => {
           renderItem={({ item }) => <Brand item={item} />}
         />
       </View>
+
     </SafeAreaView>
   );
 };
@@ -64,7 +65,8 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: "#292929",
   },
-  listContainer: {
+  listContainer: {    
+    height:500,
     padding: 16,
   },
 });

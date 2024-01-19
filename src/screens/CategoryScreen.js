@@ -12,9 +12,9 @@ const CategoryScreen = () => {
   const { t } = useTranslation();
   const renderContent = () => {
     if (selectedTab === 'Kategoriler') {
-      return <Categories />;
+      return <ScrollView><Categories /></ScrollView>;
     } else if (selectedTab === 'Markalar') {
-      return <Brands />;
+      return <ScrollView><Brands /></ScrollView>;
     }
   };
 

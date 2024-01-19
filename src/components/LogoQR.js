@@ -9,7 +9,7 @@ const LogoQR = () => {
   return (
 
     <View style={styles.container}>
-      <Image style={styles.logo} source={require("../assets/homescreen/Logo.png")} />
+      <Image style={styles.logo} source={require("../../assets/icon.png")} />
       <Image style={styles.qrCode} source={require('../assets/QRCode/Qr-Code.png')} />
       <View style={styles.number}>
         <Text style={styles.text}>1693 7070 70 </Text>

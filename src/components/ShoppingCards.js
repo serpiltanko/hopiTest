@@ -209,7 +209,7 @@ const styles = StyleSheet.create({
     imgBanner: {
         width: 320,
         height: 75,
-
+        resizeMode:"cover"
     },
 
     button: {

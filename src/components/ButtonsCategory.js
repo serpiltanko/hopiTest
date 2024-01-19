@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
   },
   activeButton: {
-    backgroundColor: "rgb(225,40,142)",
+    backgroundColor: "rgb(255,102,196)",
     width: 170,
     height: 30,
     borderRadius: 20,

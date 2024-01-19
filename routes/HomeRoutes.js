@@ -1,12 +1,12 @@
 import { StyleSheet } from 'react-native'
 import React from 'react'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import HomeScreen from '../src/screens/HomeScreen';
+import HomeScreen from '../src/screens/home/HomeScreen';
 import QRCodeScreen from '../src/screens/QRCodeScreen';
 import CartScreen from '../src/screens/CartScreen';
 import ProfileScreen from '../src/screens/ProfileScreen';
 import AllCampaigns from '../src/screens/AllCampaigns';
-import LoginScreen from '../src/screens/LoginScreen';
+import LoginScreen from '../src/screens/login/LoginScreen';
 import WelcomeScreen from '../src/screens/WelcomeScreen';
 import PasswordScreen from '../src/screens/PasswordScreen';
 import MapScreen from '../src/screens/MapScreen';

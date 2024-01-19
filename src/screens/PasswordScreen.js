@@ -18,7 +18,7 @@ import {
 } from "firebase/auth";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import { useEffect } from "react";
-import HomeScreen from "./HomeScreen";
+import HomeScreen from "./home/HomeScreen";
 
 
 const PasswordScreen = () => {
@@ -63,7 +63,7 @@ const PasswordScreen = () => {
           <AntDesign name="arrowleft" size={24} color="black" />
         </TouchableOpacity>
         <Text style={styles.header}>Parolanız</Text>
-        <Text style={styles.text}>Parolanızı girerek Hopi dünyasına adım atabilirsiniz</Text>
+        <Text style={styles.text}>Parolanızı girerek Trendy Store dünyasına adım atabilirsiniz</Text>
         <TextInput
           style={styles.input}
           placeholder="Password"

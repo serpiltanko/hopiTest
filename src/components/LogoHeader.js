@@ -30,7 +30,7 @@ const openProfileScreen = ()=>{
             <TouchableOpacity style={styles.account}  onPress={openProfileScreen}>
                 <Octicons name="person" size={20} color="black" />
             </TouchableOpacity>
-            <Image style={styles.logo} source={require("../assets/homescreen/Logo.png")} />
+            <Image style={styles.logo} source={require("../../assets/icon.png")} />
             <View style={styles.leftContainer}>
                 <TouchableOpacity style={styles.cart}  onPress={openCartScreen}>
                     <FontAwesome5 name="shopping-cart" size={24} color="black" />
@@ -69,8 +69,10 @@ const styles = StyleSheet.create({
     },
 
     logo: {
-        width: 120,
-        height: 60,
+      
+        width: 160,
+        height: 70,
+        borderRadius:15,
 
     },
 

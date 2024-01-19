@@ -33,8 +33,8 @@ const styles = StyleSheet.create({
 
     img: {
 
-        width: 100,
-        height: 100,
+        width: 80,
+        height: 80,
 
     },
 
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     button: {
         marginTop: 30,
         flexDirection: "row",
-        backgroundColor: "rgb(225,40,142)",
+        backgroundColor: "rgb(255, 150, 190)",
         alignItems: "center",
         justifyContent: "center",
         width: 320,

@@ -1,7 +1,7 @@
 import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 import React, { useContext, useEffect, useState } from "react";
-import HomeScreen from "../src/screens/HomeScreen";
-import LoginScreen from "../src/screens/LoginScreen";
+import HomeScreen from "../src/screens/home/HomeScreen";
+import LoginScreen from "../src/screens/login/LoginScreen";
 import { onAuthStateChanged } from "firebase/auth";
 import { auth } from "../services/firebase";
 import { NavigationContainer } from "@react-navigation/native";

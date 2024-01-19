@@ -48,7 +48,7 @@ const Cards = () => {
     { id: 1, image: require("../assets/homescreen/carousel1.png") },
     { id: 2, image: require("../assets/homescreen/carousel2.png") },
     { id: 3, image: require("../assets/homescreen/carousel3.png") },
-    { id: 4, image: require("../assets/homescreen/carousel1.png") },
+    { id: 4, image: require("../assets/homescreen/carousel4.png") },
   ];
   return (
     <View style={styles.container}>

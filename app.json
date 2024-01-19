@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "17-serpiltanko",
-    "slug": "17-serpiltanko",
+    "name": "20-serpiltanko",
+    "slug": "20-serpiltanko",
     "owner": "sm002",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -35,11 +35,7 @@
     },
     "plugins": [
       "expo-localization"
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "8cea39ea-f87a-472d-a50b-a038b89cb232"
-      }
-    }
+    ]
+ 
   }
 }

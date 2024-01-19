@@ -16,9 +16,9 @@ const MyTabNavigator = () => {
 
     <Tab.Navigator
 
-      screenOptions={({ route, navigation }) => ({
+      screenOptions={({ route }) => ({
 
-        tabBarIcon: ({ focused, color, size }) => {
+        tabBarIcon: ({ focused, size }) => {
           let iconName;
           if (route.name === "Kampanyalar") {
             iconName = focused ? "home" : "home";
@@ -33,16 +33,20 @@ const MyTabNavigator = () => {
             iconName = focused ? "wallet" : "wallet";
           }
 
-          const currentColor = focused ? "dodgerblue" : "black";
+          const currentColor = focused ? "rgb(255,102,196)" : "black";
           return (
             // @ts-ignore
             <AntDesign name={iconName} size={size} color={currentColor}/>
           );
         },
       })}
+      tabBarOptions={{
+        activeTintColor: "rgb(255,102,196)",
+        inactiveTintColor: "black", 
+      }}
     >
   
-      <Tab.Screen name="Kampanyalar" component={HomeStackNavigator} options={{ headerShown: false, tabBarLabel: t('Campaigns') }} />
+      <Tab.Screen name="Kampanyalar"  component={HomeStackNavigator} options={{ headerShown: false, tabBarLabel: t('Campaigns')}} />
       <Tab.Screen name="Kategoriler" component={CategoryScreen} options={{ headerShown: false, tabBarLabel: t('Categories') }} />
       <Tab.Screen name="Alışveriş" component={ShoppingScreen} options={{ headerShown: false, tabBarLabel: t('Shopping') }} />
       <Tab.Screen name="Cüzdanım" component={MyCardsScreen} options={{ headerShown: false, tabBarLabel: t('MyCart') }}/>
